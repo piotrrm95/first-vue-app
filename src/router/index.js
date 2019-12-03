@@ -1,7 +1,6 @@
 import Vue from 'vue';
-import Search from '../views/Search.vue';
-import About from '../views/About.vue';
 import VueRouter from 'vue-router';
+import Search from '../views/Search.vue';
 
 Vue.use(VueRouter);
 
@@ -11,11 +10,6 @@ export default new VueRouter({
       path: '/',
       name: 'Search',
       component: Search,
-    },
-    {
-      path: '/about',
-      name: 'About',
-      component: About,
     },
   ],
 });
